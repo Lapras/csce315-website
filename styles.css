@@ -1,12 +1,60 @@
-h1 {
-    color: grey;
-    }
-.blue_overline_text {
-color: blue;
-text-decoration: overline;
+body {
+    color: white;
+    background: #500000;
 }
-#red_underline_text {
-color: red;
-text-decoration: underline;
+section {
+    border-color:goldenrod;
+    border-width: 0.5vw;
+    padding: 0.5vw;
+    border-style: solid;
+    border-radius: 2vw;
 }
+body {
+    margin: 2vw 5vw;
+    flex-grow: 1;
     
+}
+img {
+    height:auto;
+    max-width: 100%
+ }
+ div {
+    flex-grow: 1;
+ }
+/*Yes, I'm doing maroon and white for a color scheme. I'm bad at coming up with colors so im going to rip off HOWDY*/
+/*We've also got some default styling here that I can change around, not going to get too fancy*/
+
+.twoThird {
+    display: flex;
+}
+.tTText {
+    flex-grow: 3;
+    flex-basis:10vw;
+}
+.tTPic {
+    flex-grow: 1;
+    object-fit: contain;
+    flex-basis: 10vw;
+}
+/*WOOOO flexbox! I don't know a better way to layout pages so we're doing flexbox until I get taught something better but I have a feelign we won't actually be taught HTML and CSS in this course*/
+
+.oneThird {
+    display: flex;
+}
+.oTText {
+    flex-grow: 1;
+    flex-basis: 10vw;
+}
+.oTPic {
+    flex-grow: 2;
+    object-fit: contain;
+    flex-basis: 10vw;
+}
+
+.threes {
+    display: flex;
+}
+
+.split {
+    display: flex;
+}
