@@ -16,7 +16,7 @@ body {
 }
 img {
     height:auto;
-    max-width: 100%
+    max-width: 100%;
  }
  div {
     flex-grow: 1;
@@ -49,6 +49,7 @@ img {
     flex-grow: 2;
     object-fit: contain;
     flex-basis: 10vw;
+    float: right;
 }
 
 .threes {
@@ -58,3 +59,21 @@ img {
 .split {
     display: flex;
 }
+
+.navbar {
+    border-width: .5vw .5vw;
+    border-color: goldenrod;
+    border-style: solid;
+    border-radius: 0.5vw;
+    display:flex;
+}
+
+.navbutton {
+    flex-grow: 1;
+    flex-basis: 10vw;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+/*Navbar styling*/
